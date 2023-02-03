@@ -20,8 +20,11 @@ We have done the data augment including flip,noisy and translate to enlarge the 
 
 # Training
 Download the dataset and pre-processed it，then put the pre-processed images into the folder datasets/train.
+
 Download the VGG16.npy (https://mega.nz/file/YU1FWJrA#O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM) and put it into the PerGAN folder.
+
 Then train the model with the following commands:
+
 $ python main.py  (default settings)
 $ python main.py --dataset dataset_name --input_height= XX --output_height=XX --train 
 
