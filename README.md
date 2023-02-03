@@ -28,7 +28,7 @@ $ python main.py  (default settings)
 $ python main.py --dataset dataset_name --input_height= XX --output_height=XX --train 
 
 # Testing
-Download the pre-trained model(), put it into the folder checkpoint/Sal_1_256.
+Download the pre-trained model(https://drive.google.com/drive/u/1/folders/0AHsofhV2VHNoUk9PVA), put it into the folder checkpoint/Sal_1_256.
 
 Download the VGG16.npy (https://mega.nz/file/YU1FWJrA#O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM) and put it into the PerGAN folder.
 
