@@ -17,7 +17,7 @@ As many existing work has done, we used the public MSRA-10K dataset to train the
 
 
 # Training
-Download the dataset and pre-processed it，then put the pre-processed images into the folder datasets/train.
+Download the dataset and pre-processed it，then put the pre-processed images into the folder datasets/Sal/train.
 
 Download the VGG16.npy (https://mega.nz/file/YU1FWJrA#O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM) and put it into the PerGAN folder.
 
@@ -28,7 +28,7 @@ $ python main.py  (default settings)
 $ python main.py --dataset dataset_name --input_height= XX --output_height=XX --train 
 
 # Testing
-Download the pre-trained model(), put it into the folder checkpoints/Sal-1-256.
+Download the pre-trained model(), put it into the folder checkpoint/Sal_1_256.
 
 Download the VGG16.npy (https://mega.nz/file/YU1FWJrA#O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM) and put it into the PerGAN folder.
 
